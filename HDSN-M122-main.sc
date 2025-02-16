@@ -3,12 +3,12 @@ ifset set3			# IBM terminal protocol
 
 remapblock
 layer 0
-	LANG_4 	 			LGUI	 	  	#Windows Key (Middle of + nav)
+	LANG_4 	 			RGUI	 	  	#Windows Key (Middle of + nav)
 	EUROPE_2 			LGUI 			#Windows Key (Keybeside Left Shift) 
 	#EUROPE_1 			A			# \| key beside ENTER
 
 	# Terminal Side Keys F1 - F10
-	EXTRA_F1 			MEDIA_MY_COMPUTER	#
+	EXTRA_F1 			F21
 	EXTRA_F2			ESC			#
 	EXTRA_F3			F13			# 
 	EXTRA_F4			F14			#
@@ -36,10 +36,13 @@ layer 0
 	F16				MEDIA_VOLUME_UP
 	F17				MEDIA_PREV_TRACK
 	F18				MEDIA_NEXT_TRACK
-	#F19				
-	#F20				
+	F19				MEDIA_MY_COMPUTER
+	F20				MEDIA_WWW_HOME
 	# F21 				
 	# F22 				
 	# F23				
 	# F24 				
 endblock
+
+
+
