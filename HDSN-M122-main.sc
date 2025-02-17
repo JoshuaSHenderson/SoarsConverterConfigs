@@ -41,8 +41,7 @@ layer 0
 	# F21 				
 	# F22 				
 	# F23				
-	# F24 				
+	F24 				PRINTSCREEN		
 endblock
-
 
 
